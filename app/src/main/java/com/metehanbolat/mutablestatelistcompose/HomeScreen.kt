@@ -17,7 +17,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
 
-    val elements by homeViewModel.elements
+    val elements = homeViewModel.elements
 
     Column(
         modifier = Modifier
